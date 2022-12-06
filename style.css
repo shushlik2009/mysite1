@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata" rel="stylesheet');
+
+html,
+body {
+    height: 100%;
+}
+
+.greetings,
+p,
+h1,
+h2 {
+    font-family:'literata', Serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: beige;
+    padding: none;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20.5%;
+    margin-bottom:auto;
+    background-color: gray;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: cornsilk;
+    font-family: 'Literata', Serif;
+    font-size: 1.5rem;
+    color: aquamarine;
+    font-weight: 500;
+}
+
+.logo ing {
+    width: 1px;
+    height: 1px;
+    margin-left: 1px;
+
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+}
+
+.fullname {
+    margin-right: 20px;
+    flex-basis: 900px;
+}
+
+.myImg {
+    margin-top: 200px;
+    padding-left: 30px;
+    flex-basis: 300px;
+}
+
+.knowledge {
+    display: flex;
+    justify-content: right;
+    padding-right: 100px;
+}
+
+.article {
+    margin-top: 1em;
+}
+
+
+p {
+    font-size: 1rem;
+    color: black;
+    padding-left: 50px;
+}
+
+.text {
+    font-size: 1rem;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.footer {
+    background-color: gray;
+    height: 0.1%;
+    flex: 1 0 auto;
+
+}
